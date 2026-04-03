@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil Engineering Portfolio</title>
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span id="nav-initials">CE</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle Theme">
+                    <!-- Icon will be injected by JS -->
+                    <svg class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="hero-section fade-in">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 id="hero-name">Name</h1>
+                <h2 id="hero-title">Title</h2>
+                <p id="hero-bio">Bio</p>
+                <div class="hero-actions" id="hero-links">
+                    <!-- Social links will be injected here -->
+                </div>
+            </div>
+            <div class="hero-graphic">
+                <!-- A subtle architectural or abstract graphic -->
+                <div class="abstract-shape shape-1"></div>
+                <div class="abstract-shape shape-2"></div>
+                <div class="abstract-shape shape-3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Education Section -->
+        <section id="education" class="section-block slide-up">
+            <h2 class="section-title">Academic Background</h2>
+            <div id="education-container" class="timeline">
+                <!-- Education injected here -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-block slide-up">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div id="skills-container" class="skills-grid">
+                <!-- Skills injected here -->
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section-block slide-up">
+            <h2 class="section-title">Internships & Experience</h2>
+            <div id="experience-container" class="timeline">
+                <!-- Experience injected here -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-block slide-up">
+            <h2 class="section-title">Selected Projects</h2>
+            <div id="projects-container" class="projects-grid">
+                <!-- Projects injected here -->
+            </div>
+        </section>
+
+        <!-- Research Papers Section -->
+        <section id="research" class="section-block slide-up">
+            <h2 class="section-title">Research & Publications</h2>
+            <div id="research-container" class="research-grid">
+                <!-- Research injected here -->
+            </div>
+        </section>
+
+        <!-- Extracurricular Activities Section -->
+        <section id="eca" class="section-block slide-up">
+            <h2 class="section-title">Extracurricular Activities</h2>
+            <div id="eca-container" class="timeline">
+                <!-- ECA injected here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div id="footer-contact">
+                <!-- Contact info injected here -->
+            </div>
+            <p>&copy; <span id="current-year"></span>. Built meticulously by an Engineer.</p>
+        </div>
+    </footer>
+
+    <!-- Load the data first, then the logic script -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

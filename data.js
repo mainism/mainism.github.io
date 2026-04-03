@@ -10,12 +10,12 @@ const portfolioData = {
     // 1. PERSONAL INFORMATION
     // ------------------------------------------------------------------------
     personal: {
-        name: "Your Name",
+        name: "MD. MAINUL ISLAM",
         title: "Civil Engineering Final Year Student",
-        email: "your.email@example.com",
-        phone: "+1 234 567 8900",
-        location: "City, Country",
-        github: "https://github.com/yourusername",
+        email: "mainulislam.ruet20@gmail.com",
+        phone: "+8801601018045",
+        location: "Rajshahi, Bangladesh",
+        github: "https://github.com/mainism",
         linkedin: "https://linkedin.com/in/yourusername",
         // A short, compelling introduction about yourself
         bio: "I am a dedicated Civil Engineering student with a passion for sustainable infrastructure and resilient structural design. Currently in my final year, I am actively seeking opportunities to apply my academic foundation to real-world engineering challenges. I excel in collaborative environments and am driven by the impact of well-designed built environments."
@@ -29,7 +29,7 @@ const portfolioData = {
             degree: "Bachelor of Science in Civil Engineering",
             institution: "Your University Name",
             period: "2020 - Present",
-            details: "Expected graduation: May 2024. Current CGPA: 3.8/4.0.",
+            details: "Expected graduation: May 2024. Current CGPA: 3.91/4.0.",
             // You can list relevant coursework here
             coursework: ["Structural Analysis", "Geotechnical Engineering", "Fluid Mechanics", "Transportation Engineering", "Environmental Engineering"]
         }
